@@ -1,0 +1,300 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://luredb.example.com/schemas/lure-colors.schema.json",
+  "title": "Lure Colors Database",
+  "description": "Schema for fishing lure color database with manufacturer information and lookup indexes",
+  "type": "object",
+  "required": ["version", "metadata", "manufacturers"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the database schema"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["name", "description", "publisher", "lastUpdated"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the dataset"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the dataset"
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher or maintainer of the dataset"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Last update date in YYYY-MM-DD format"
+        }
+      }
+    },
+    "manufacturers": {
+      "type": "object",
+      "description": "Collection of lure manufacturers indexed by their slug ID",
+      "patternProperties": {
+        "^[a-z0-9-]+$": {
+          "$ref": "#/definitions/manufacturer"
+        }
+      }
+    },
+    "indexes": {
+      "type": "object",
+      "description": "Lookup indexes for fast queries",
+      "properties": {
+        "byId": {
+          "type": "object",
+          "description": "Index of all colors by their unique ID",
+          "patternProperties": {
+            "^[a-z0-9-]+$": {
+              "type": "object",
+              "required": ["manufacturerId", "colorName"],
+              "properties": {
+                "manufacturerId": {
+                  "type": "string"
+                },
+                "colorName": {
+                  "type": "string"
+                },
+                "companyId": {
+                  "type": ["string", "null"]
+                }
+              }
+            }
+          }
+        },
+        "byCompanyId": {
+          "type": "object",
+          "description": "Index of color IDs grouped by company color code",
+          "patternProperties": {
+            "^.+$": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "byYearIntroduced": {
+          "type": "object",
+          "description": "Index of color IDs grouped by year introduced",
+          "patternProperties": {
+            "^\\d{4}$": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "byManufacturer": {
+          "type": "object",
+          "description": "Index of all color IDs grouped by manufacturer",
+          "patternProperties": {
+            "^[a-z0-9-]+$": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "manufacturer": {
+      "type": "object",
+      "required": ["id", "name", "colors"],
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Last update date for this manufacturer's data"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Short unique identifier for the manufacturer"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full official name of the manufacturer"
+        },
+        "aka": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Alternative names or abbreviations"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            }
+          }
+        },
+        "tagline": {
+          "type": "string",
+          "description": "Company motto or tagline"
+        },
+        "founded": {
+          "type": "integer",
+          "minimum": 1800,
+          "maximum": 2100,
+          "description": "Year the company was founded"
+        },
+        "officers": {
+          "type": "object",
+          "description": "Historical company officers",
+          "patternProperties": {
+            "^.+$": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "year"],
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "year": {
+                    "type": "string",
+                    "description": "Year or year range (e.g., '1916-1927')"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "history_highlights": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["year", "event"],
+            "properties": {
+              "year": {
+                "type": "integer",
+                "minimum": 1800,
+                "maximum": 2100
+              },
+              "event": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/color"
+          }
+        }
+      }
+    },
+    "color": {
+      "type": "object",
+      "required": ["id", "name", "companyId"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier for this color (format: manufacturerId-companyId)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Official name of the color"
+        },
+        "yearIntroduced": {
+          "type": ["integer", "null"],
+          "minimum": 1800,
+          "maximum": 2100,
+          "description": "Year this color was first introduced"
+        },
+        "yearLastUsed": {
+          "type": ["integer", "null"],
+          "minimum": 1800,
+          "maximum": 2100,
+          "description": "Last year this color was produced"
+        },
+        "companyId": {
+          "type": ["string", "null"],
+          "description": "Company's internal color code/number"
+        },
+        "pre1925Id": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "string"
+          },
+          "description": "Color codes used before 1925"
+        },
+        "hex": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$",
+          "description": "Hexadecimal color code"
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
+          },
+          "description": "Array of hex colors for multi-color patterns"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["natural", "bright", "dark", "metallic", "fluorescent", "luminous"],
+          "description": "Color category classification"
+        },
+        "finishType": {
+          "type": "string",
+          "enum": ["painted", "scale", "luminous", "flash", "beetle", "solid", "spotted", "striped"],
+          "description": "Type of finish or pattern"
+        },
+        "pattern": {
+          "type": "string",
+          "enum": ["solid", "scale", "spotted", "striped", "mixed"],
+          "description": "Pattern type"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Searchable tags for this color"
+        },
+        "popularity": {
+          "type": "string",
+          "enum": ["common", "uncommon", "rare", "very-rare"],
+          "description": "Rarity/popularity indicator"
+        },
+        "discontinued": {
+          "type": "boolean",
+          "description": "Whether this color is permanently discontinued"
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL or path to image of lure in this color"
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the color"
+        }
+      }
+    }
+  }
+}

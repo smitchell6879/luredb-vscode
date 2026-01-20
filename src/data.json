@@ -1,0 +1,1303 @@
+{
+    "version": "1.0.0",
+    "metadata": {
+        "name": "Lure Colors Dataset",
+        "description": "A dataset containing various colors of fishing lures.",
+        "publisher": "smitchell6879",
+        "lastUpdated": "2026-01-19"
+    },
+    "manufacturers": {
+        "creek-chub": {
+            "lastUpdated": "2026-01-19",
+            "id": "ccbc",
+            "name": "The Creek Chub Bait Company",
+            "aka": ["CCBC", "Creek Chub"],
+            "location": {
+                "city": "Garrett",
+                "state": "Indiana",
+                "country": "USA"
+            },
+            "tagline": "Catch More Fish!",
+            "founded": 1916,
+            "officers": {
+                "Presidents": [
+                    {
+                        "name": "Henery Dills",
+                        "year": "1916-1927"
+                    },
+                    {
+                        "name": "George Schulthess",
+                        "year": "1927-1945"
+                    },
+                    {
+                        "name": "Gordon S. Dills",
+                        "year": "1945 - 1958"
+                    },
+                    {   
+                        "name": "Howard Schulthess",
+                        "year": "1958-1963"
+                    },
+                    {   
+                        "name": "Leroy Schulthess",
+                        "year": "1963-1978"
+                    }
+                ],
+                "Vice Presidents": [
+                    {
+                        "name": "George Schulthess",
+                        "year": "1916-1927"
+                    },
+                    {
+                        "name": "Gordon S. Dills",
+                        "year": "1927-1945"
+                    },
+                    {
+                        "name": "Howard Schulthess",
+                        "year": "1945 - 1958"
+                    },
+                    {   
+                        "name": "Harry Heinzerling",
+                        "year": "1958-1978"
+                    }
+                ],
+                "Secretary": [
+                    {
+                        "name": "Carl Heinzerling",
+                        "year": "1916-1950"
+                    },
+                    {   
+                        "name": "Harry Heinzerling",
+                        "year": "1950-1958"
+                    },
+                    {
+                        "name": "Gordon A. Dills",
+                        "year": "1958-1978"
+                    }
+                ],
+                "Treasurer": [
+                    {
+                        "name": "Carl Heinzerling",
+                        "year": "1916-1950"
+                    },
+                    {   
+                        "name": "Harry Heinzerling",
+                        "year": "1950-1958"
+                    },
+                    {
+                        "name": "Julia Schulthess",
+                        "year": "1958-1978"
+                    }
+                ]
+            },
+            "history_highlights": [
+                {
+                    "year": 1916,
+                    "event": "First production lure, the Wiggler, made as company begins."
+                },
+                {
+                    "year": 1918,
+                    "event": "Company is officially incorporated."
+                },
+                {
+                    "year": 1920,
+                    "event": "World Famous Pikie was introduced."
+                },
+                {
+                    "year": 1921,
+                    "event": "Patent received for scale pattern produced by spraying paint through netting."
+                },
+                {
+                    "year": 1921,
+                    "event": "Intro boxes are replaced with classic two-piece cardboard Creek Chub boxes."
+                },
+                {
+                    "year": 1935,
+                    "event": "Military stencils began on the lures and continued through 1950."
+                },
+                {
+                    "year": 1936,
+                    "event": "Improved lip and through-wire construction introduced."
+                },
+                {
+                    "year": 1950,
+                    "event": "Deep diving lip produced."
+                },
+                {
+                    "year": 1951,
+                    "event": "Spinning lures introduced."
+                },
+                {
+                    "year": 1952,
+                    "event": "Plastic top box produced."
+                },
+                {
+                    "year": 1954,
+                    "event": "Last year for fly rod lures."
+                },
+                {
+                    "year": 1956,
+                    "event": "Mass production of plastic lures begins."
+                },
+                {
+                    "year": 1961,
+                    "event": "Transition from glass eyes to tack eyes."
+                },
+                {
+                    "year": 1964,
+                    "event": "\"Gold Foil\" labels began and continued through 1978."
+                },
+                {
+                    "year": 1975,
+                    "event": "The last new lure, the Cheekie, is introduced."
+                },
+                {
+                    "year": 1978,
+                    "event": "Company sold to Lazy Ike Corporation."
+                }
+            ],
+            "colors":[
+                {
+                    "id": "ccbc-00",
+                    "name": "Natural Chub",
+                    "yearIntroduced": 1916,
+                    "yearLastUsed": 1962,
+                    "companyId": "00",
+                    "pre1925Id": ["00"]
+                },
+                {
+                    "id": "ccbc-00b",
+                    "name": "Natural Crab",
+                    "yearIntroduced": 1917,
+                    "yearLastUsed": 1978,
+                    "companyId": "00",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-00c",
+                    "name": "Pikie Scale",
+                    "yearIntroduced": 1920,
+                    "yearLastUsed": 1978,
+                    "companyId": "00",
+                    "pre1925Id": ["00"]
+                },
+                {
+                    "id": "ccbc-00d",
+                    "name": "Bug Finish",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1947,
+                    "companyId": "00",
+                    "pre1925Id": ["00"]
+                },
+                {
+                    "id": "ccbc-01",
+                    "name": "Perch",
+                    "yearIntroduced": 1917,
+                    "yearLastUsed": 1978,
+                    "companyId": "01",
+                    "pre1925Id": ["01","03","04"]
+                },
+                {
+                    "id": "ccbc-02",
+                    "name": "Red Head/White",
+                    "yearIntroduced": 1916,
+                    "yearLastUsed": 1978,
+                    "companyId": "02",
+                    "pre1925Id": ["01","03","04"]
+                },
+                {
+                    "id": "ccbc-02b",
+                    "name": "Albino",
+                    "yearIntroduced": 1918,
+                    "yearLastUsed": 1954,
+                    "companyId": "02",
+                    "pre1925Id": ["01"]
+                },
+                {
+                    "id": "ccbc-03",
+                    "name": "Silver Shiner",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1978,
+                    "companyId": "03",
+                    "pre1925Id": ["00", "01"]
+                },
+                {
+                    "id": "ccbc-04",
+                    "name": "Golden Shiner",
+                    "yearIntroduced": 1916,
+                    "yearLastUsed": 1978,
+                    "companyId": "04",
+                    "pre1925Id": ["02","03", "05"]
+                },
+                {
+                    "id": "ccbc-yellow-scale",
+                    "name": "Yellow Scale",
+                    "yearIntroduced": 1916,
+                    "yearLastUsed": 1924,
+                    "companyId": null,
+                    "pre1925Id": ["03"]
+                },
+                {
+                    "id": "ccbc-05",
+                    "name": "Red Side",
+                    "yearIntroduced": 1917,
+                    "yearLastUsed": 1950,
+                    "companyId": "05",
+                    "pre1925Id": ["00","01","02"]
+                },
+                {
+                    "id": "ccbc-05b",
+                    "name": "Dace",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1978,
+                    "companyId": "05",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-06",
+                    "name": "Goldfish",
+                    "yearIntroduced": 1922,
+                    "yearLastUsed": 1954,
+                    "companyId": "06",
+                    "pre1925Id": ["08"]
+                },
+                {
+                    "id": "ccbc-07",
+                    "name": "Mullet",
+                    "yearIntroduced": 1916,
+                    "yearLastUsed": 1978,
+                    "companyId": "07",
+                    "pre1925Id": ["01"]
+                },
+                {
+                    "id": "ccbc-08",
+                    "name": "Rainbow",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1978,
+                    "companyId": "08",
+                    "pre1925Id": ["02","06"]
+                },
+                {
+                    "id": "ccbc-09",
+                    "name": "Greenback",
+                    "yearIntroduced": 1917,
+                    "yearLastUsed": 1954,
+                    "companyId": "09",
+                    "pre1925Id": ["01","02","05"]
+                },
+                {
+                    "id": "ccbc-09b",
+                    "name": "Shad",
+                    "yearIntroduced": 1962,
+                    "yearLastUsed": 1978,
+                    "companyId": "09",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-10",
+                    "name": "Blue Head/White",
+                    "yearIntroduced": 1922,
+                    "yearLastUsed": 1945,
+                    "companyId": "10",
+                    "pre1925Id": ["01"]
+                },
+                {
+                    "id": "ccbc-10b",
+                    "name": "Amber Flash",
+                    "yearIntroduced": 1959,
+                    "yearLastUsed": 1962,
+                    "companyId": "10",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-10c",
+                    "name": "Gray",
+                    "yearIntroduced": 1957,
+                    "yearLastUsed": 1978,
+                    "companyId": "10",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-11",
+                    "name": "Black Head/White",
+                    "yearIntroduced": 1922,
+                    "yearLastUsed": 1955,
+                    "companyId": "11",
+                    "pre1925Id": ["02","09"]
+                },
+                {
+                    "id": "ccbc-11b",
+                    "name": "Purple",
+                    "yearIntroduced": 1968,
+                    "yearLastUsed": 1978,
+                    "companyId": "11",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-12",
+                    "name": "All Red",
+                    "yearIntroduced": 1917,
+                    "yearLastUsed": 1945,
+                    "companyId": "12",
+                    "pre1925Id": ["06"]
+                },
+                {
+                    "id": "ccbc-12b",
+                    "name": "White",
+                    "yearIntroduced": 1964,
+                    "yearLastUsed": 1978,
+                    "companyId": "12",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-12RE",
+                    "name": "White Red Eye",
+                    "yearIntroduced": 1973,
+                    "yearLastUsed": 1978,
+                    "companyId": "12RE",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-13",
+                    "name": "Black",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1978,
+                    "companyId": "13",
+                    "pre1925Id": ["07"]
+                },
+                {
+                    "id": "ccbc-14",
+                    "name": "Yellow Spotted",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1978,
+                    "companyId": "14",
+                    "pre1925Id": ["02"]
+                },
+                {
+                    "id": "ccbc-15",
+                    "name": "Tan Crab",
+                    "yearIntroduced": 1919,
+                    "yearLastUsed": 1955,
+                    "companyId": "15",
+                    "pre1925Id": ["02"]
+                },
+                {
+                    "id": "ccbc-16",
+                    "name": "River Peeler",
+                    "yearIntroduced": 1922,
+                    "yearLastUsed": 1955,
+                    "companyId": "16",
+                    "pre1925Id": ["03"]
+                },
+                {
+                    "id": "ccbc-16b",
+                    "name": "Banana",
+                    "yearIntroduced": 1970,
+                    "yearLastUsed": 1978,
+                    "companyId": "16",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-17",
+                    "name": "Plain Luminous",
+                    "yearIntroduced": 1925,
+                    "yearLastUsed": 1945,
+                    "companyId": "17",
+                    "pre1925Id": ["15"]
+                },
+                {
+                    "id": "ccbc-17b",
+                    "name": "Coachdog",
+                    "yearIntroduced": 1964,
+                    "yearLastUsed": 1978,
+                    "companyId": "17",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-18",
+                    "name": "Silver Flash",
+                    "yearIntroduced": 1927,
+                    "yearLastUsed": 1978,
+                    "companyId": "18",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-19",
+                    "name": "Frog",
+                    "yearIntroduced": 1924,
+                    "yearLastUsed": 1978,
+                    "companyId": "19",
+                    "pre1925Id": ["00"]
+                },
+                {
+                    "id": "ccbc-20",
+                    "name": "Green Gar",
+                    "yearIntroduced": 1927,
+                    "yearLastUsed": 1953,
+                    "companyId": "20",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-20b",
+                    "name": "Mackerel",
+                    "yearIntroduced": 1958,
+                    "yearLastUsed": 1978,
+                    "companyId": "20",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-21",
+                    "name": "Nite-Glo (Day-N-Night)",
+                    "yearIntroduced": 1927,
+                    "yearLastUsed": 1954,
+                    "companyId": "21",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-21b",
+                    "name": "Fluorescent Red",
+                    "yearIntroduced": 1970,
+                    "yearLastUsed": 1978,
+                    "companyId": "21",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-22",
+                    "name": "Red Head/Nite-Glo",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "22",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-22b",
+                    "name": "Fluorescent Green",
+                    "yearIntroduced": 1970,
+                    "yearLastUsed": 1978,
+                    "companyId": "22",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-23",
+                    "name": "Fluorescent Yellow",
+                    "yearIntroduced": 1970,
+                    "yearLastUsed": 1978,
+                    "companyId": "23",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-24",
+                    "name": "Redwing Blackbird",
+                    "yearIntroduced": 1941,
+                    "yearLastUsed": 1954,
+                    "companyId": "24",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-24b",
+                    "name": "Shrimp",
+                    "yearIntroduced": 1964,
+                    "yearLastUsed": 1978,
+                    "companyId": "24",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-25",
+                    "name": "White Scale",
+                    "yearIntroduced": 1941,
+                    "yearLastUsed": 1954,
+                    "companyId": "25",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-25BE",
+                    "name": "White with Black Eye",
+                    "yearIntroduced": 1976,
+                    "yearLastUsed": 1978,
+                    "companyId": "25BE",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-26",
+                    "name": "Red & White w/Wings",
+                    "yearIntroduced": 1941,
+                    "yearLastUsed": 1954,
+                    "companyId": "26",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-27",
+                    "name": "Spotted",
+                    "yearIntroduced": 1941,
+                    "yearLastUsed": 1954,
+                    "companyId": "27",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-28",
+                    "name": "Gray",
+                    "yearIntroduced": 1941,
+                    "yearLastUsed": 1954,
+                    "companyId": "28",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-29",
+                    "name": "Victory",
+                    "yearIntroduced": 1942,
+                    "yearLastUsed": 1954,
+                    "companyId": "29",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-30",
+                    "name": "Red & Orange Spotted",
+                    "yearIntroduced": 1952,
+                    "yearLastUsed": 1978,
+                    "companyId": "30",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-31",
+                    "name": "Rainbow Fire",
+                    "yearIntroduced": 1950,
+                    "yearLastUsed": 1954,
+                    "companyId": "31",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-32",
+                    "name": "Fire Plug",
+                    "yearIntroduced": 1950,
+                    "yearLastUsed": 1954,
+                    "companyId": "32",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-33",
+                    "name": "Black Scale",
+                    "yearIntroduced": 1952,
+                    "yearLastUsed": 1978,
+                    "companyId": "33",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-34",
+                    "name": "Blue Flash",
+                    "yearIntroduced": 1953,
+                    "yearLastUsed": 1978,
+                    "companyId": "34",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-35",
+                    "name": "Purple Eel",
+                    "yearIntroduced": 1953,
+                    "yearLastUsed": 1978,
+                    "companyId": "35",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-36",
+                    "name": "Sucker",
+                    "yearIntroduced": 1953,
+                    "yearLastUsed": 1955,
+                    "companyId": "36",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-37",
+                    "name": "Yellow Flash",
+                    "yearIntroduced": 1953,
+                    "yearLastUsed": 1978,
+                    "companyId": "37",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-38",
+                    "name": "Pearl",
+                    "yearIntroduced": 1956,
+                    "yearLastUsed": 1978,
+                    "companyId": "38",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-39",
+                    "name": "Tiger Stripe",
+                    "yearIntroduced": 1959,
+                    "yearLastUsed": 1978,
+                    "companyId": "39",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-40",
+                    "name": "Chrome",
+                    "yearIntroduced": 1964,
+                    "yearLastUsed": 1978,
+                    "companyId": "40",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-41",
+                    "name": "Red & Yellow",
+                    "yearIntroduced": 1959,
+                    "yearLastUsed": 1962,
+                    "companyId": "41",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-41b",
+                    "name": "Amber",
+                    "yearIntroduced": 1967,
+                    "yearLastUsed": 1978,
+                    "companyId": "41",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-42",
+                    "name": "Black & Yellow",
+                    "yearIntroduced": 1959,
+                    "yearLastUsed": 1962,
+                    "companyId": "42",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-42b",
+                    "name": "Psychie Pikie",
+                    "yearIntroduced": 1975,
+                    "yearLastUsed": 1978,
+                    "companyId": "42",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-43",
+                    "name": "Strawberry",
+                    "yearIntroduced": 1975,
+                    "yearLastUsed": 1978,
+                    "companyId": "43",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-44",
+                    "name": "Whitefish",
+                    "yearIntroduced": 1975,
+                    "yearLastUsed": 1978,
+                    "companyId": "44",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-50",
+                    "name": "Yellow Beetle",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "50",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-51",
+                    "name": "Green Beetle",
+                    "yearIntroduced": 1921,
+                    "yearLastUsed": 1954,
+                    "companyId": "51",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-52",
+                    "name": "White & Red Beetle",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "52",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-53",
+                    "name": "Orange Beetle",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "53",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-54",
+                    "name": "Gold Beetle",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "54",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-55",
+                    "name": "Black Beetle",
+                    "yearIntroduced": 1931,
+                    "yearLastUsed": 1954,
+                    "companyId": "55",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-SS",
+                    "name": "Silver Shad",
+                    "yearIntroduced": 1969,
+                    "yearLastUsed": 1978,
+                    "companyId": "SS",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-GP",
+                    "name": "Glo-Pearl",
+                    "yearIntroduced": 1957,
+                    "yearLastUsed": 1978,
+                    "companyId": "GP",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-T",
+                    "name": "Tiger",
+                    "yearIntroduced": 1957,
+                    "yearLastUsed": 1978,
+                    "companyId": "T",
+                    "pre1925Id": null
+                },
+                {
+                    "id": "ccbc-F10",
+                    "name": "Chub",
+                    "yearIntroduced": null,
+                    "yearLastUsed": null,
+                    "companyId": "F10",
+                    "pre1925Id": ["11"]
+                },
+                {
+                    "id": "ccbc-F11",
+                    "name": "Perch",
+                    "yearIntroduced": null,
+                    "yearLastUsed": null,
+                    "companyId": "F11",
+                    "pre1925Id": ["F12"]
+                },
+                {
+                    "id": "ccbc-F12",
+                    "name": "White & Red",
+                    "yearIntroduced": null,
+                    "yearLastUsed": null,
+                    "companyId": "F12",
+                    "pre1925Id": ["F10"]
+                },
+                {
+                    "id": "ccbc-F16",
+                    "name": "Goldfish",
+                    "yearIntroduced": null,
+                    "yearLastUsed": null,
+                    "companyId": "F16",
+                    "pre1925Id": ["F13"]
+                }
+            ],
+            "lures":[
+                {
+                    "name": "Wiggler",
+                    "number": 100,
+                    "yearIntroduced": 1916,
+                    "yearLastMfg": 1964,
+                    "length": "3 1/2 inches",
+                    "weight": "3/5 oz",
+                    "eyes": "Glass eyes, some have a red backing to the eyes, some color variations have no eyes. Tack eyes are known on special orders after 1960",
+                    "colors": [
+                        "ccbc-00",
+                        "ccbc-01",
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-04",
+                        "ccbc-05",
+                        "ccbc-06",
+                        "ccbc-07",
+                        "ccbc-09",
+                        "ccbc-11",
+                        "ccbc-12",
+                        "ccbc-18",
+                        "ccbc-19"
+                    ],
+                    "rare_colors": ["ccbc-03", "ccbc-07", "ccbc-09", "ccbc-12", "ccbc-19"],
+                    "pre1925codes": [
+                        {"ccbc-00": 100},
+                        {"ccbc-01": 101},
+                        {"ccbc-02": 104},
+                        {"ccbc-04": 103},
+                        {"ccbc-05": 102},
+                        {"ccbc-06": 108},
+                        {"ccbc-09": 105},
+                        {"ccbc-11": 109},
+                        {"ccbc-12": 106}
+                     ],
+                    "notes": "The original and most iconic Creek Chub lure. Designed by Henery Dills in 1916."
+        
+                },
+                {
+                    "name": "Baby Wiggler",
+                    "number": 200
+                },
+                {
+                    "name": "Wee Dee",
+                    "number": 200
+                },
+                {
+                    "name": "Crawdad",
+                    "number": 300
+                },
+                {
+                    "name": "Baby Crawdad",
+                    "number": 400
+                },
+                {
+                    "name": "Open Mouth Shiner",
+                    "number": 500
+                },
+                {
+                    "name": "Spoon Tail",
+                    "number": 500
+                },
+                {
+                    "name": "Top 'n' Pop",
+                    "number": 500
+                },
+                {
+                    "name": "Husky Musky",
+                    "number": 600
+                },
+                {
+                    "name": "Mitie Mouse",
+                    "number": 600
+                },
+                {
+                    "name": "Pikie Minnow",
+                    "number": 700
+                },
+                {
+                    "name": "Deluxe Wagtail",
+                    "number": 800
+                },
+                {
+                    "name": "Giant Jointed Pikie",
+                    "number": 800
+                },
+                {
+                    "name": "Baby Pike Minnow",
+                    "number": 900
+                },
+                {
+                    "name": "Creek Bug Wiggler (Trout)",
+                    "number": 1000
+                },
+                {
+                    "name": "Cohokie",
+                    "number": 1000
+                },
+                {
+                    "name": "Nikie",
+                    "number": 1000
+                },
+                {
+                    "name": "Creek Bug Wiggler (Bass)",
+                    "number": 1100
+                },
+                {
+                    "name": "Snarkie",
+                    "number": 1100
+                },
+                {
+                    "name": "Mini-Cohokie",
+                    "number": 1100
+                },
+                {
+                    "name": "Fly Rod Pikie (Trout)",
+                    "number": 1200
+                },
+                {
+                    "name": "Snark",
+                    "number": 1200
+                },
+                {
+                    "name": "Fly Rod Pikie (Bass)",
+                    "number": 1300
+                },
+                {
+                    "name": "Snark-Eel",
+                    "number": 1300
+                },
+                {
+                    "name": "Big Creek Bug Wiggler",
+                    "number": 1400
+                },
+                {
+                    "name": "Injured Minnow",
+                    "number": 1500
+                },
+                {
+                    "name": "Baby Injured Minnow",
+                    "number": 1600
+                },
+                {
+                    "name": "Poly Wiggle",
+                    "number": 1700
+                },
+                {
+                    "name": "Silversides",
+                    "number": 1700
+                },
+                {
+                    "name": "Underwater Spinner Minnow",
+                    "number": 1800
+                },
+                {
+                    "name": "Wiggle Diver",
+                    "number": 1800
+                },
+                {
+                    "name": "Creek and River Fishing Lure",
+                    "number": 1900
+                },
+                {
+                    "name": "Striper Strike",
+                    "number": 1900
+                },
+                {
+                    "name": "Darter",
+                    "number": 2000
+                },
+                {
+                    "name": "Fintail Shiner",
+                    "number": 2100
+                },
+                {
+                    "name": "Striper Strike",
+                    "number": 2100
+                },
+                {
+                    "name": "Midget Pike Minnow",
+                    "number": 2200
+                },
+                {
+                    "name": "Striper Strike",
+                    "number": 2200
+                },
+                {
+                    "name": "Husky Pikie Minnow",
+                    "number": 2300
+                },
+                {
+                    "name": "Wiggle Fish",
+                    "number": 2400
+                },
+                {
+                    "name": "Striper Strike",
+                    "number": 2400
+                },
+                {
+                    "name": "Baby Wiggle Fish",
+                    "number": 2500
+                },
+                {
+                    "name": "Striper Strike",
+                    "number": 2500
+                },
+                {
+                    "name": "Jointed Pikie",
+                    "number": 2600
+                },
+                {
+                    "name": "Baby Jointed Pikie",
+                    "number": 2700
+                },
+                {
+                    "name": "Weed Bug",
+                    "number": 2800
+                },
+                {
+                    "name": "Three-Jointed Pikie",
+                    "number": 2800
+                },
+                {
+                    "name": "Gar Minnow",
+                    "number": 2900
+                },
+                {
+                    "name": "Jointed Husky Pikie",
+                    "number": 3000
+                },
+                {
+                    "name": "Castrola",
+                    "number": 3100
+                },
+                {
+                    "name": "Plunker",
+                    "number": 3200
+                },
+                {
+                    "name": "Sarasota",
+                    "number": 3300
+                },
+                {
+                    "name": "Snook Pikie",
+                    "number": 3400
+                },
+                {
+                    "name": "Husky Injured Minnow",
+                    "number": 3500
+                },
+                {
+                    "name": "Lucky Mouse",
+                    "number": 3600
+                },
+                {
+                    "name": "River Rustler",
+                    "number": 3700
+                },
+                {
+                    "name": "Beetle",
+                    "number": 3800
+                },
+                {
+                    "name": "Sucker",
+                    "number": 3900
+                },
+                {
+                    "name": "Tarpon Pikie",
+                    "number": 4000
+                },
+                {
+                    "name": "Jigger",
+                    "number": 4100
+                },
+                {
+                    "name": "Jointed Midget Pikie",
+                    "number": 4200
+                },
+                {
+                    "name": "River Scamp",
+                    "number": 4300
+                },
+                {
+                    "name": "Flip Flap",
+                    "number": 4400
+                },
+                {
+                    "name": "Wiggle Wizzard",
+                    "number": 4500
+                },
+                {
+                    "name": "Skipper",
+                    "number": 4600
+                },
+                {
+                    "name": "Fethi-Min",
+                    "number": 4700
+                },
+                {
+                    "name": "Wee Dee",
+                    "number": 4800
+                },
+                {
+                    "name": "Jointed Darter",
+                    "number": 4900
+                },
+                {
+                    "name": "Close Pin",
+                    "number": 5000
+                },
+                {
+                    "name": "Spinning Wiggle Diver",
+                    "number": 5000
+                },
+                {
+                    "name": "Dingbat",
+                    "number": 5100
+                },
+                {
+                    "name": "Midget Dingbat",
+                    "number": 5200
+                },
+                {
+                    "name": "Husky Dingbat",
+                    "number": 5300
+                }
+            ]
+        }
+    },
+    "indexes": {
+        "byId": {
+            "ccbc-00": {"manufacturerId": "creek-chub", "colorName": "Natural Chub", "companyId": "00"},
+            "ccbc-00b": {"manufacturerId": "creek-chub", "colorName": "Natural Crab", "companyId": "00"},
+            "ccbc-00c": {"manufacturerId": "creek-chub", "colorName": "Pikie Scale", "companyId": "00"},
+            "ccbc-00d": {"manufacturerId": "creek-chub", "colorName": "Bug Finish", "companyId": "00"},
+            "ccbc-01": {"manufacturerId": "creek-chub", "colorName": "Perch", "companyId": "01"},
+            "ccbc-02": {"manufacturerId": "creek-chub", "colorName": "Red Head/White", "companyId": "02"},
+            "ccbc-02b": {"manufacturerId": "creek-chub", "colorName": "Albino", "companyId": "02"},
+            "ccbc-03": {"manufacturerId": "creek-chub", "colorName": "Silver Shiner", "companyId": "03"},
+            "ccbc-04": {"manufacturerId": "creek-chub", "colorName": "Golden Shiner", "companyId": "04"},
+            "ccbc-yellow-scale": {"manufacturerId": "creek-chub", "colorName": "Yellow Scale", "companyId": null},
+            "ccbc-05": {"manufacturerId": "creek-chub", "colorName": "Red Side", "companyId": "05"},
+            "ccbc-05b": {"manufacturerId": "creek-chub", "colorName": "Dace", "companyId": "05"},
+            "ccbc-06": {"manufacturerId": "creek-chub", "colorName": "Goldfish", "companyId": "06"},
+            "ccbc-07": {"manufacturerId": "creek-chub", "colorName": "Mullet", "companyId": "07"},
+            "ccbc-08": {"manufacturerId": "creek-chub", "colorName": "Rainbow", "companyId": "08"},
+            "ccbc-09": {"manufacturerId": "creek-chub", "colorName": "Greenback", "companyId": "09"},
+            "ccbc-09b": {"manufacturerId": "creek-chub", "colorName": "Shad", "companyId": "09"},
+            "ccbc-10": {"manufacturerId": "creek-chub", "colorName": "Blue Head/White", "companyId": "10"},
+            "ccbc-10b": {"manufacturerId": "creek-chub", "colorName": "Amber Flash", "companyId": "10"},
+            "ccbc-10c": {"manufacturerId": "creek-chub", "colorName": "Gray", "companyId": "10"},
+            "ccbc-11": {"manufacturerId": "creek-chub", "colorName": "Black Head/White", "companyId": "11"},
+            "ccbc-11b": {"manufacturerId": "creek-chub", "colorName": "Purple", "companyId": "11"},
+            "ccbc-12": {"manufacturerId": "creek-chub", "colorName": "All Red", "companyId": "12"},
+            "ccbc-12b": {"manufacturerId": "creek-chub", "colorName": "White", "companyId": "12"},
+            "ccbc-12RE": {"manufacturerId": "creek-chub", "colorName": "White Red Eye", "companyId": "12RE"},
+            "ccbc-13": {"manufacturerId": "creek-chub", "colorName": "Black", "companyId": "13"},
+            "ccbc-14": {"manufacturerId": "creek-chub", "colorName": "Yellow Spotted", "companyId": "14"},
+            "ccbc-15": {"manufacturerId": "creek-chub", "colorName": "Tan Crab", "companyId": "15"},
+            "ccbc-16": {"manufacturerId": "creek-chub", "colorName": "River Peeler", "companyId": "16"},
+            "ccbc-16b": {"manufacturerId": "creek-chub", "colorName": "Banana", "companyId": "16"},
+            "ccbc-17": {"manufacturerId": "creek-chub", "colorName": "Plain Luminous", "companyId": "17"},
+            "ccbc-17b": {"manufacturerId": "creek-chub", "colorName": "Coachdog", "companyId": "17"},
+            "ccbc-18": {"manufacturerId": "creek-chub", "colorName": "Silver Flash", "companyId": "18"},
+            "ccbc-19": {"manufacturerId": "creek-chub", "colorName": "Frog", "companyId": "19"},
+            "ccbc-20": {"manufacturerId": "creek-chub", "colorName": "Green Gar", "companyId": "20"},
+            "ccbc-20b": {"manufacturerId": "creek-chub", "colorName": "Mackerel", "companyId": "20"},
+            "ccbc-21": {"manufacturerId": "creek-chub", "colorName": "Nite-Glo (Day-N-Night)", "companyId": "21"},
+            "ccbc-21b": {"manufacturerId": "creek-chub", "colorName": "Fluorescent Red", "companyId": "21"},
+            "ccbc-22": {"manufacturerId": "creek-chub", "colorName": "Red Head/Nite-Glo", "companyId": "22"},
+            "ccbc-22b": {"manufacturerId": "creek-chub", "colorName": "Fluorescent Green", "companyId": "22"},
+            "ccbc-23": {"manufacturerId": "creek-chub", "colorName": "Fluorescent Yellow", "companyId": "23"},
+            "ccbc-24": {"manufacturerId": "creek-chub", "colorName": "Redwing Blackbird", "companyId": "24"},
+            "ccbc-24b": {"manufacturerId": "creek-chub", "colorName": "Shrimp", "companyId": "24"},
+            "ccbc-25": {"manufacturerId": "creek-chub", "colorName": "White Scale", "companyId": "25"},
+            "ccbc-25BE": {"manufacturerId": "creek-chub", "colorName": "White with Black Eye", "companyId": "25BE"},
+            "ccbc-26": {"manufacturerId": "creek-chub", "colorName": "Red & White w/Wings", "companyId": "26"},
+            "ccbc-27": {"manufacturerId": "creek-chub", "colorName": "Spotted", "companyId": "27"},
+            "ccbc-28": {"manufacturerId": "creek-chub", "colorName": "Gray", "companyId": "28"},
+            "ccbc-29": {"manufacturerId": "creek-chub", "colorName": "Victory", "companyId": "29"},
+            "ccbc-30": {"manufacturerId": "creek-chub", "colorName": "Red & Orange Spotted", "companyId": "30"},
+            "ccbc-31": {"manufacturerId": "creek-chub", "colorName": "Rainbow Fire", "companyId": "31"},
+            "ccbc-32": {"manufacturerId": "creek-chub", "colorName": "Fire Plug", "companyId": "32"},
+            "ccbc-33": {"manufacturerId": "creek-chub", "colorName": "Black Scale", "companyId": "33"},
+            "ccbc-34": {"manufacturerId": "creek-chub", "colorName": "Blue Flash", "companyId": "34"},
+            "ccbc-35": {"manufacturerId": "creek-chub", "colorName": "Purple Eel", "companyId": "35"},
+            "ccbc-36": {"manufacturerId": "creek-chub", "colorName": "Sucker", "companyId": "36"},
+            "ccbc-37": {"manufacturerId": "creek-chub", "colorName": "Yellow Flash", "companyId": "37"},
+            "ccbc-38": {"manufacturerId": "creek-chub", "colorName": "Pearl", "companyId": "38"},
+            "ccbc-39": {"manufacturerId": "creek-chub", "colorName": "Tiger Stripe", "companyId": "39"},
+            "ccbc-40": {"manufacturerId": "creek-chub", "colorName": "Chrome", "companyId": "40"},
+            "ccbc-41": {"manufacturerId": "creek-chub", "colorName": "Red & Yellow", "companyId": "41"},
+            "ccbc-41b": {"manufacturerId": "creek-chub", "colorName": "Amber", "companyId": "41"},
+            "ccbc-42": {"manufacturerId": "creek-chub", "colorName": "Black & Yellow", "companyId": "42"},
+            "ccbc-42b": {"manufacturerId": "creek-chub", "colorName": "Psychie Pikie", "companyId": "42"},
+            "ccbc-43": {"manufacturerId": "creek-chub", "colorName": "Strawberry", "companyId": "43"},
+            "ccbc-44": {"manufacturerId": "creek-chub", "colorName": "Whitefish", "companyId": "44"},
+            "ccbc-50": {"manufacturerId": "creek-chub", "colorName": "Yellow Beetle", "companyId": "50"},
+            "ccbc-51": {"manufacturerId": "creek-chub", "colorName": "Green Beetle", "companyId": "51"},
+            "ccbc-52": {"manufacturerId": "creek-chub", "colorName": "White & Red Beetle", "companyId": "52"},
+            "ccbc-53": {"manufacturerId": "creek-chub", "colorName": "Orange Beetle", "companyId": "53"},
+            "ccbc-54": {"manufacturerId": "creek-chub", "colorName": "Gold Beetle", "companyId": "54"},
+            "ccbc-55": {"manufacturerId": "creek-chub", "colorName": "Black Beetle", "companyId": "55"},
+            "ccbc-58": {"manufacturerId": "creek-chub", "colorName": "Red Head Shiner", "companyId": "58"},
+            "ccbc-SS": {"manufacturerId": "creek-chub", "colorName": "Silver Shad", "companyId": "SS"},
+            "ccbc-GP": {"manufacturerId": "creek-chub", "colorName": "Glo-Pearl", "companyId": "GP"},
+            "ccbc-T": {"manufacturerId": "creek-chub", "colorName": "Tiger", "companyId": "T"},
+            "ccbc-F10": {"manufacturerId": "creek-chub", "colorName": "Chub", "companyId": "F10"},
+            "ccbc-F11": {"manufacturerId": "creek-chub", "colorName": "Perch", "companyId": "F11"},
+            "ccbc-F12": {"manufacturerId": "creek-chub", "colorName": "White & Red", "companyId": "F12"},
+            "ccbc-F16": {"manufacturerId": "creek-chub", "colorName": "Goldfish", "companyId": "F16"}
+        },
+        "byCompanyId": {
+            "00": ["ccbc-00", "ccbc-00b", "ccbc-00c", "ccbc-00d"],
+            "01": ["ccbc-01"],
+            "02": ["ccbc-02", "ccbc-02b"],
+            "03": ["ccbc-03"],
+            "04": ["ccbc-04"],
+            "05": ["ccbc-05", "ccbc-05b"],
+            "06": ["ccbc-06"],
+            "07": ["ccbc-07"],
+            "08": ["ccbc-08"],
+            "09": ["ccbc-09", "ccbc-09b"],
+            "10": ["ccbc-10", "ccbc-10b", "ccbc-10c"],
+            "11": ["ccbc-11", "ccbc-11b"],
+            "12": ["ccbc-12", "ccbc-12b"],
+            "12RE": ["ccbc-12RE"],
+            "13": ["ccbc-13"],
+            "14": ["ccbc-14"],
+            "15": ["ccbc-15"],
+            "16": ["ccbc-16", "ccbc-16b"],
+            "17": ["ccbc-17", "ccbc-17b"],
+            "18": ["ccbc-18"],
+            "19": ["ccbc-19"],
+            "20": ["ccbc-20", "ccbc-20b"],
+            "21": ["ccbc-21", "ccbc-21b"],
+            "22": ["ccbc-22", "ccbc-22b"],
+            "23": ["ccbc-23"],
+            "24": ["ccbc-24", "ccbc-24b"],
+            "25": ["ccbc-25"],
+            "25BE": ["ccbc-25BE"],
+            "26": ["ccbc-26"],
+            "27": ["ccbc-27"],
+            "28": ["ccbc-28"],
+            "29": ["ccbc-29"],
+            "30": ["ccbc-30"],
+            "31": ["ccbc-31"],
+            "32": ["ccbc-32"],
+            "33": ["ccbc-33"],
+            "34": ["ccbc-34"],
+            "35": ["ccbc-35"],
+            "36": ["ccbc-36"],
+            "37": ["ccbc-37"],
+            "38": ["ccbc-38"],
+            "39": ["ccbc-39"],
+            "40": ["ccbc-40"],
+            "41": ["ccbc-41", "ccbc-41b"],
+            "42": ["ccbc-42", "ccbc-42b"],
+            "43": ["ccbc-43"],
+            "44": ["ccbc-44"],
+            "50": ["ccbc-50"],
+            "51": ["ccbc-51"],
+            "52": ["ccbc-52"],
+            "53": ["ccbc-53"],
+            "54": ["ccbc-54"],
+            "55": ["ccbc-55"],
+            "58": ["ccbc-58"],
+            "SS": ["ccbc-SS"],
+            "GP": ["ccbc-GP"],
+            "T": ["ccbc-T"],
+            "F10": ["ccbc-F10"],
+            "F11": ["ccbc-F11"],
+            "F12": ["ccbc-F12"],
+            "F16": ["ccbc-F16"]
+        },
+        "byYearIntroduced": {
+            "1916": ["ccbc-00", "ccbc-02", "ccbc-04", "ccbc-yellow-scale", "ccbc-07"],
+            "1917": ["ccbc-00b", "ccbc-01", "ccbc-05", "ccbc-09", "ccbc-12"],
+            "1918": ["ccbc-02b"],
+            "1919": ["ccbc-15"],
+            "1920": ["ccbc-00c"],
+            "1921": ["ccbc-51"],
+            "1922": ["ccbc-06", "ccbc-10", "ccbc-11", "ccbc-16"],
+            "1924": ["ccbc-00d", "ccbc-03", "ccbc-08", "ccbc-13", "ccbc-14", "ccbc-19"],
+            "1925": ["ccbc-17"],
+            "1927": ["ccbc-18", "ccbc-20", "ccbc-21"],
+            "1931": ["ccbc-05b", "ccbc-22", "ccbc-50", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55"],
+            "1941": ["ccbc-24", "ccbc-25", "ccbc-26", "ccbc-27", "ccbc-28"],
+            "1942": ["ccbc-29"],
+            "1950": ["ccbc-31", "ccbc-32"],
+            "1952": ["ccbc-30", "ccbc-33"],
+            "1953": ["ccbc-34", "ccbc-35", "ccbc-36", "ccbc-37"],
+            "1956": ["ccbc-38"],
+            "1957": ["ccbc-10c", "ccbc-GP", "ccbc-T"],
+            "1958": ["ccbc-20b"],
+            "1959": ["ccbc-10b", "ccbc-39", "ccbc-41", "ccbc-42"],
+            "1962": ["ccbc-09b"],
+            "1964": ["ccbc-12b", "ccbc-17b", "ccbc-24b", "ccbc-40"],
+            "1967": ["ccbc-41b"],
+            "1968": ["ccbc-11b"],
+            "1969": ["ccbc-SS"],
+            "1970": ["ccbc-16b", "ccbc-21b", "ccbc-22b", "ccbc-23"],
+            "1973": ["ccbc-12RE"],
+            "1975": ["ccbc-42b", "ccbc-43", "ccbc-44"],
+            "1976": ["ccbc-25BE"]
+        },
+        "byManufacturer": {
+            "creek-chub": ["ccbc-00", "ccbc-00b", "ccbc-00c", "ccbc-00d", "ccbc-01", "ccbc-02", "ccbc-02b", "ccbc-03", "ccbc-04", "ccbc-yellow-scale", "ccbc-05", "ccbc-05b", "ccbc-06", "ccbc-07", "ccbc-08", "ccbc-09", "ccbc-09b", "ccbc-10", "ccbc-10b", "ccbc-10c", "ccbc-11", "ccbc-11b", "ccbc-12", "ccbc-12b", "ccbc-12RE", "ccbc-13", "ccbc-14", "ccbc-15", "ccbc-16", "ccbc-16b", "ccbc-17", "ccbc-17b", "ccbc-18", "ccbc-19", "ccbc-20", "ccbc-20b", "ccbc-21", "ccbc-21b", "ccbc-22", "ccbc-22b", "ccbc-23", "ccbc-24", "ccbc-24b", "ccbc-25", "ccbc-25BE", "ccbc-26", "ccbc-27", "ccbc-28", "ccbc-29", "ccbc-30", "ccbc-31", "ccbc-32", "ccbc-33", "ccbc-34", "ccbc-35", "ccbc-36", "ccbc-37", "ccbc-38", "ccbc-39", "ccbc-40", "ccbc-41", "ccbc-41b", "ccbc-42", "ccbc-42b", "ccbc-43", "ccbc-44", "ccbc-50", "ccbc-51", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55", "ccbc-58", "ccbc-SS", "ccbc-GP", "ccbc-T", "ccbc-F10", "ccbc-F11", "ccbc-F12", "ccbc-F16"]
+        }
+    }
+}

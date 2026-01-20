@@ -1,0 +1,95 @@
+{
+  "name": "luredb",
+  "displayName": "Lure Database Assistant",
+  "description": "Search and reference fishing lure colors from historical manufacturer databases",
+  "version": "0.2.2",
+  "publisher": "smitchell6879",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "fishing",
+    "lures",
+    "colors",
+    "database",
+    "reference"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "luredb.searchColors",
+        "title": "Search Lure Colors",
+        "category": "LureDB"
+      },
+      {
+        "command": "luredb.searchSelectedText",
+        "title": "Search Selected Text in Lure Colors",
+        "category": "LureDB"
+      },
+      {
+        "command": "luredb.searchLures",
+        "title": "Search Lures",
+        "category": "LureDB"
+      },
+      {
+        "command": "luredb.searchLuresSelectedText",
+        "title": "Search Selected Text in Lures",
+        "category": "LureDB"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "luredb.searchSelectedText",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
+        "when": "editorHasSelection"
+      },
+      {
+        "command": "luredb.searchLuresSelectedText",
+        "key": "ctrl+alt+l",
+        "mac": "cmd+alt+l",
+        "when": "editorHasSelection"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "luredb.searchSelectedText",
+          "group": "navigation",
+          "when": "editorHasSelection"
+        },
+        {
+          "command": "luredb.searchLuresSelectedText",
+          "group": "navigation",
+          "when": "editorHasSelection"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/luredb-vscode"
+  }
+}

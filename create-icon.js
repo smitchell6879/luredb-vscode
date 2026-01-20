@@ -1,0 +1,16 @@
+const fs = require('fs');
+const path = require('path');
+
+// Create a simple PNG from SVG using base64 encoding
+const svgPath = path.join(__dirname, 'icon.svg');
+const pngPath = path.join(__dirname, 'icon.png');
+
+// For now, we'll create a minimal valid PNG
+// This is a 128x128 transparent PNG (minimal placeholder)
+const pngBuffer = Buffer.from(
+  'iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDEvMTkvMjYmeqNcAAAAFnRFWHRBdXRob3IAR2l0SHViIENvcGlsb3SFz2+vAAABGElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA1Afxa AAH+jxZ7AAAAAElFTkSuQmCC',
+  'base64'
+);
+
+fs.writeFileSync(pngPath, pngBuffer);
+console.log('Created placeholder icon.png. For best results, convert icon.svg manually.');
