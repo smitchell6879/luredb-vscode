@@ -4,11 +4,11 @@
         "name": "Lure Colors Dataset",
         "description": "A dataset containing various colors of fishing lures.",
         "publisher": "smitchell6879",
-        "lastUpdated": "2026-01-19"
+        "lastUpdated": "2026-01-20"
     },
     "manufacturers": {
         "creek-chub": {
-            "lastUpdated": "2026-01-19",
+            "lastUpdated": "2026-01-20",
             "id": "ccbc",
             "name": "The Creek Chub Bait Company",
             "aka": ["CCBC", "Creek Chub"],
@@ -825,12 +825,41 @@
                         {"ccbc-11": 109},
                         {"ccbc-12": 106}
                      ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Creek Chub"
+                    },
                     "notes": "The original and most iconic Creek Chub lure. Designed by Henery Dills in 1916."
         
                 },
                 {
                     "name": "Baby Wiggler",
-                    "number": 200
+                    "number": 200,
+                    "yearIntroduced": 1918,
+                    "yearLastMfg": 1953,
+                    "length": "2 3/4 inches",
+                    "weight": "1/2 oz",
+                    "eyes": "Glass eyes, some have a red backing to the eyes, some color variations have no eyes.",
+                    "colors": ["ccbc-00", "ccbc-01", "ccbc-02", "ccbc-03", "ccbc-04", "ccbc-05", "ccbc-06", "ccbc-07", "ccbc-09", "ccbc-11", "ccbc-12", "ccbc-18", "ccbc-19"],
+                    "rare_colors": ["ccbc-03", "ccbc-07", "ccbc-09", "ccbc-12", "ccbc-19"],
+                    "pre1925codes": [
+                        {"ccbc-00": 100},
+                        {"ccbc-01": 101},
+                        {"ccbc-02": 104},
+                        {"ccbc-04": 103},
+                        {"ccbc-05": 102},
+                        {"ccbc-06": 108},
+                        {"ccbc-09": 205},
+                        {"ccbc-11": 209},
+                        {"ccbc-12": 206}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Creek Chub"
+                    },
+                    "notes": "Smaller version of the original Wiggler. Austin 'Toad' Van Houton created a special variation of Silver Shiner with a unique lip. "
                 },
                 {
                     "name": "Wee Dee",
@@ -838,19 +867,51 @@
                 },
                 {
                     "name": "Crawdad",
-                    "number": 300
+                    "number": 300,
+                    "pre1925codes": [
+                        {"ccbc-00b": 300},
+                        {"ccbc-02b": 301},
+                        {"ccbc-15": 302},
+                        {"ccbc-16": 303}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Crawdad"
+                    }
                 },
                 {
                     "name": "Baby Crawdad",
-                    "number": 400
+                    "number": 400,
+                    "pre1925codes": [
+                        {"ccbc-00b": 400},
+                        {"ccbc-02b": 401},
+                        {"ccbc-15": 402},
+                        {"ccbc-16": 403}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Crawdad"
+                    }
                 },
                 {
                     "name": "Open Mouth Shiner",
-                    "number": 500
+                    "number": 500,
+                    "pre1925codes": [
+                        {"ccbc-02": 502},
+                        {"ccbc-03": 500},
+                        {"ccbc-05": 501}
+                     ]
                 },
                 {
-                    "name": "Spoon Tail",
-                    "number": 500
+                    "name": "Spoontail",
+                    "number": 500,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1954,
+                        "yearEnded": 1956,
+                        "label": "Spoontail"
+                    }
                 },
                 {
                     "name": "Top 'n' Pop",
@@ -858,7 +919,13 @@
                 },
                 {
                     "name": "Husky Musky",
-                    "number": 600
+                    "number": 600,
+                    "pre1925codes": [
+                        {"ccbc-00": 600},
+                        {"ccbc-01": 603},
+                        {"ccbc-02": 602},
+                        {"ccbc-07": 601}
+                     ]
                 },
                 {
                     "name": "Mitie Mouse",
@@ -866,19 +933,100 @@
                 },
                 {
                     "name": "Pikie Minnow",
-                    "number": 700
+                    "number": 700,
+                    "pre1925codes": [
+                        {"ccbc-00c": 700},
+                        {"ccbc-01": 704},
+                        {"ccbc-02": 703},
+                        {"ccbc-04": 705},
+                        {"ccbc-08": 706},
+                        {"ccbc-10": 701},
+                        {"ccbc-11": 702}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Deep Diving Pikie",
+                    "number": "700DD",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Saltwater Pikie",
+                    "number": "700SW",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Deluxe Wagtail",
-                    "number": 800
+                    "number": 800,
+                    "pre1925codes": [
+                        {"ccbc-00": 800},
+                        {"ccbc-01": 801},
+                        {"ccbc-02": 804},
+                        {"ccbc-04": 803},
+                        {"ccbc-05": 802},
+                        {"ccbc-06": 808}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Creek Chub"
+                    }
                 },
                 {
                     "name": "Giant Jointed Pikie",
-                    "number": 800
+                    "number": 800,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1963,
+                        "label": "Creek Chub Giant Pikie"
+                    }
                 },
                 {
                     "name": "Baby Pike Minnow",
-                    "number": 900
+                    "number": 900,
+                    "pre1925codes": [
+                        {"ccbc-00c": 900},
+                        {"ccbc-01": 904},
+                        {"ccbc-02": 903},
+                        {"ccbc-04": 905},
+                        {"ccbc-08": 906}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
+                },
+                {
+                    "name": "Deep Diving Baby Pikie",
+                    "number": "900DD",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
                 },
                 {
                     "name": "Creek Bug Wiggler (Trout)",
@@ -906,7 +1054,12 @@
                 },
                 {
                     "name": "Fly Rod Pikie (Trout)",
-                    "number": 1200
+                    "number": 1200,
+                    "pre1925codes": [
+                        {"ccbc-00d": 1200},
+                        {"ccbc-02": 1202},
+                        {"ccbc-05": 1201}
+                     ]
                 },
                 {
                     "name": "Snark",
@@ -914,7 +1067,12 @@
                 },
                 {
                     "name": "Fly Rod Pikie (Bass)",
-                    "number": 1300
+                    "number": 1300,
+                    "pre1925codes": [
+                        {"ccbc-00d": 1300},
+                        {"ccbc-02": 1302},
+                        {"ccbc-05": 1301}
+                     ]
                 },
                 {
                     "name": "Snark-Eel",
@@ -922,19 +1080,64 @@
                 },
                 {
                     "name": "Big Creek Bug Wiggler",
-                    "number": 1400
+                    "number": 1400,
+                    "pre1925codes": [
+                        {"ccbc-00d": 1400},
+                        {"ccbc-02": 1402},
+                        {"ccbc-13": 1401}
+                     ]
                 },
                 {
                     "name": "Injured Minnow",
-                    "number": 1500
+                    "number": 1500,
+                    "pre1925codes": [
+                        {"ccbc-05": 1500},
+                        {"ccbc-01": 1501},
+                        {"ccbc-02": 1502},
+                        {"ccbc-03": 1503},
+                        {"ccbc-04": 1504},
+                        {"ccbc-17": 1515}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Injured Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1960,
+                        "label": "Injured Minnow or Creek Chub Injured Minnow"
+                    }
                 },
                 {
                     "name": "Baby Injured Minnow",
-                    "number": 1600
+                    "number": 1600,
+                    "pre1925codes": [
+                        {"ccbc-01": 1601},
+                        {"ccbc-02": 1602},
+                        {"ccbc-03": 1603},
+                        {"ccbc-04": 1604},
+                        {"ccbc-05": 1605},
+                        {"ccbc-17": 1615}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Injured Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1960,
+                        "label": "Injured Minnow, Creek Chub Injured Minnow"
+                    }
                 },
                 {
                     "name": "Poly Wiggle",
-                    "number": 1700
+                    "number": 1700,
+                    "pre1925codes": [
+                        {"ccbc-00": 1700},
+                        {"ccbc-02": 1701}
+                     ]
                 },
                 {
                     "name": "Silversides",
@@ -942,7 +1145,12 @@
                 },
                 {
                     "name": "Underwater Spinner Minnow",
-                    "number": 1800
+                    "number": 1800,
+                    "pre1925codes": [
+                        {"ccbc-05": 1800},
+                        {"ccbc-09": 1801},
+                        {"ccbc-08": 1802}
+                     ]
                 },
                 {
                     "name": "Wiggle Diver",
@@ -950,7 +1158,12 @@
                 },
                 {
                     "name": "Creek and River Fishing Lure",
-                    "number": 1900
+                    "number": 1900,
+                    "pre1925codes": [
+                        {"ccbc-05": 1900},
+                        {"ccbc-09": 1901},
+                        {"ccbc-08": 1902}
+                     ]
                 },
                 {
                     "name": "Striper Strike",
@@ -958,11 +1171,28 @@
                 },
                 {
                     "name": "Darter",
-                    "number": 2000
+                    "number": 2000,
+                    "pre1925codes": [
+                        {"ccbc-02": 2001},
+                        {"ccbc-14": 2002},
+                        {"ccbc-19": 2000}
+                     ],
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Darter or Creek Chub Darter"
+                    }
                 },
                 {
                     "name": "Fintail Shiner",
-                    "number": 2100
+                    "number": 2100,
+                    "pre1925codes": [
+                        {"ccbc-01": 2103},
+                        {"ccbc-02": 2104},
+                        {"ccbc-03": 2101},
+                        {"ccbc-04": 2102},
+                        {"ccbc-05": 2100}
+                     ]
                 },
                 {
                     "name": "Striper Strike",
@@ -970,7 +1200,25 @@
                 },
                 {
                     "name": "Midget Pike Minnow",
-                    "number": 2200
+                    "number": 2200,
+                    "pre1925codes": [
+                        {"ccbc-00c": 2200},
+                        {"ccbc-01": 2204},
+                        {"ccbc-02": 2203},
+                        {"ccbc-04": 2205},
+                        {"ccbc-08": 2206},
+                        {"ccbc-13": 2207}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1961,
+                        "label": "Pikie"
+                    }
                 },
                 {
                     "name": "Striper Strike",
@@ -978,11 +1226,44 @@
                 },
                 {
                     "name": "Husky Pikie Minnow",
-                    "number": 2300
+                    "number": 2300,
+                    "pre1925codes": [
+                        {"ccbc-00c": 2300},
+                        {"ccbc-01": 2304},
+                        {"ccbc-02": 2302},
+                        {"ccbc-04": 2305},
+                        {"ccbc-08": 2306}
+                     ],
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Husky Pikie Minnow",
+                    "number": "2300L",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1962,
+                        "label": "Pikie, Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Wiggle Fish",
-                    "number": 2400
+                    "number": 2400,
+                    "pre1925codes": [
+                        {"ccbc-00c": 2403},
+                        {"ccbc-02": 2404},
+                        {"ccbc-03": 2401},
+                        {"ccbc-04": 2402},
+                        {"ccbc-05": 2400}
+                     ]
                 },
                 {
                     "name": "Striper Strike",
@@ -998,11 +1279,49 @@
                 },
                 {
                     "name": "Jointed Pikie",
-                    "number": 2600
+                    "number": 2600,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Deep Diving Jointed Pikie",
+                    "number": "2600DD",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Baby Jointed Pikie",
-                    "number": 2700
+                    "number": 2700,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
+                },
+                {
+                    "name": "Deep Diving Baby Jointed Pikie",
+                    "number": "2700DD",
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
                 },
                 {
                     "name": "Weed Bug",
@@ -1018,7 +1337,17 @@
                 },
                 {
                     "name": "Jointed Husky Pikie",
-                    "number": 3000
+                    "number": 3000,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Castrola",
@@ -1026,7 +1355,12 @@
                 },
                 {
                     "name": "Plunker",
-                    "number": 3200
+                    "number": 3200,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Plunker"
+                    }
                 },
                 {
                     "name": "Sarasota",
@@ -1034,11 +1368,26 @@
                 },
                 {
                     "name": "Snook Pikie",
-                    "number": 3400
+                    "number": 3400,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Husky Injured Minnow",
-                    "number": 3500
+                    "number": 3500,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1946,
+                        "stencil": "Injured Minnow"
+                    }
                 },
                 {
                     "name": "Lucky Mouse",
@@ -1050,7 +1399,12 @@
                 },
                 {
                     "name": "Beetle",
-                    "number": 3800
+                    "number": 3800,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Beetle"
+                    }
                 },
                 {
                     "name": "Sucker",
@@ -1058,7 +1412,12 @@
                 },
                 {
                     "name": "Tarpon Pikie",
-                    "number": 4000
+                    "number": 4000,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1961,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
                 },
                 {
                     "name": "Jigger",
@@ -1066,11 +1425,26 @@
                 },
                 {
                     "name": "Jointed Midget Pikie",
-                    "number": 4200
+                    "number": 4200,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1961,
+                        "label": "Pikie or Pikie Minnow"
+                    }
                 },
                 {
                     "name": "River Scamp",
-                    "number": 4300
+                    "number": 4300,
+                    "military_stenciling":{
+                        "yearStarted": 1934,
+                        "yearEnded": 1950,
+                        "stencil": "Scamp"
+                    }
                 },
                 {
                     "name": "Flip Flap",
@@ -1094,7 +1468,12 @@
                 },
                 {
                     "name": "Jointed Darter",
-                    "number": 4900
+                    "number": 4900,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Darter"
+                    }
                 },
                 {
                     "name": "Close Pin",
@@ -1106,15 +1485,317 @@
                 },
                 {
                     "name": "Dingbat",
-                    "number": 5100
+                    "number": 5100,
+                    "military_stenciling":{
+                        "yearStarted": 1937,
+                        "yearEnded": 1950,
+                        "stencil": "Dingbat"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1958,
+                        "label": "Dingbat"
+                    }
                 },
                 {
                     "name": "Midget Dingbat",
-                    "number": 5200
+                    "number": 5200,
+                    "military_stenciling":{
+                        "yearStarted": 1938,
+                        "yearEnded": 1950,
+                        "stencil": "Dingbat"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1958,
+                        "label": "Dingbat"
+                    }
                 },
                 {
                     "name": "Husky Dingbat",
-                    "number": 5300
+                    "number": 5300,
+                    "military_stenciling":{
+                        "yearStarted": 1938,
+                        "yearEnded": 1950,
+                        "stencil": "Dingbat"
+                    }
+                },
+                {
+                    "name": "Surface Dingbat",
+                    "number": "5400",
+                    "military_stenciling":{
+                        "yearStarted": 1938,
+                        "yearEnded": 1950,
+                        "stencil": "Dingbat"
+                    }
+                },
+                {
+                    "name": "Jointed Snook Pikie",
+                    "number": 5500,
+                    "military_stenciling":{
+                        "yearStarted": 1938,
+                        "yearEnded": 1950,
+                        "stencil": "Pikie or Pikie Minnow"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Dinger",
+                    "number": 5600,
+                    "military_stenciling":{
+                        "yearStarted": 1939,
+                        "yearEnded": 1950,
+                        "stencil": "Dinger"
+                    }
+                },
+                {
+                    "name": "Husky Dinger",
+                    "number": 5700,
+                    "military_stenciling":{
+                        "yearStarted": 1939,
+                        "yearEnded": 1950,
+                        "stencil": "Dinger"
+                    }
+                },
+                {
+                    "name": "Husky Plunker",
+                    "number": 5800,
+                    "military_stenciling":{
+                        "yearStarted": 1939,
+                        "yearEnded": 1950,
+                        "stencil": "Plunker"
+                    }
+                },
+                {
+                    "name": "Midget Plunker",
+                    "number": 5900,
+                    "military_stenciling":{
+                        "yearStarted": 1939,
+                        "yearEnded": 1950,
+                        "stencil": "Plunker"
+                    }
+                },
+                {
+                    "name": "Midget Beetle",
+                    "number": 6000,
+                    "military_stenciling":{
+                        "yearStarted": 1939,
+                        "yearEnded": 1950,
+                        "stencil": "Beetle"
+                    }
+                },
+                {
+                    "name": "Midget Dinger",
+                    "number": 6100,
+                    "military_stenciling":{
+                        "yearStarted": 1940,
+                        "yearEnded": 1950,
+                        "stencil": "Dinger"
+                    }
+                },
+                {
+                    "name": "Pop 'n' Dunk",
+                    "number": 6300,
+                    "military_stenciling":{
+                        "yearStarted": 1941,
+                        "yearEnded": 1950,
+                        "stencil": "Pop 'n' Dunk"
+                    }
+                },
+                {
+                    "name": "Creek Chub Mouse",
+                    "number": 6380,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1963,
+                        "label": "Creek Chub"
+                    }
+                },
+                {
+                    "name": "Tiny Tim",
+                    "number": 6400,
+                    "military_stenciling":{
+                        "yearStarted": 1941,
+                        "yearEnded": 1950,
+                        "stencil": "Tiny Tim"
+                    }
+                },
+                {
+                    "name": "Creek Chub Mouse",
+                    "number": 6577,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1963,
+                        "label": "Creek Chub"
+                    }
+                },
+                {
+                    "name": "Creek Chub Mouse",
+                    "number": 6580,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1957,
+                        "yearEnded": 1963,
+                        "label": "Creek Chub"
+                    }
+                },
+                {
+                    "name": "Jointed Striper Pikie",
+                    "number": 6800,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Striper Pikie",
+                    "number": 6900,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Pikie or Creek Chub Pikie"
+                    }
+                },
+                {
+                    "name": "Surfster",
+                    "number": 7200,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1953,
+                        "yearEnded": 1963,
+                        "label": "Creek Chub Surfster"
+                    }
+                },
+                {
+                    "name": "Husky Surfster",
+                    "number": 7300,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1953,
+                        "yearEnded": 1958,
+                        "label": "Creek Chub Surfster"
+                    }
+                },
+                {
+                    "name": "Salt Surfster",
+                    "number": 7400,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1953,
+                        "yearEnded": 1958,
+                        "label": "Creek Chub Surfster"
+                    }
+                },
+                {
+                    "name": "Surf Popper",
+                    "number": 7500,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1955,
+                        "yearEnded": 1958,
+                        "label": "Creek Chub Popper"
+                    }
+                },
+                {
+                    "name": "Surf Darter",
+                    "number": 7600,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1955,
+                        "yearEnded": 1958,
+                        "label": "Creek Chub Darter"
+                    }
+                },
+                {
+                    "name": "Midget Darter",
+                    "number": 8000,
+                    "military_stenciling":{
+                        "yearStarted": 1938,
+                        "yearEnded": 1950,
+                        "stencil": "Darter"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Darter"
+                    }
+                },
+                {
+                    "name": "CB Midget Darter",
+                    "number": "8000-CB",
+                    "military_stenciling":{
+                        "yearStarted": 1947,
+                        "yearEnded": 1950,
+                        "stencil": "Darter"
+                    },
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1950,
+                        "yearEnded": 1963,
+                        "label": "Darter"
+                    }
+                },
+                {
+                    "name": "Spinning Darter",
+                    "number": 9000,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1952,
+                        "yearEnded": 1963,
+                        "label": "Darter"
+                    }
+                },
+                {
+                    "name": "Spoontail",
+                    "number": 9100,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1954,
+                        "yearEnded": 1956,
+                        "label": "Spoontail"
+                    }
+                },
+                {
+                    "name": "Spinning Pikie",
+                    "number": 9300,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1952,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
+                },
+                {
+                    "name": "Jointed Spinning Pikie",
+                    "number": 9400,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1952,
+                        "yearEnded": 1963,
+                        "label": "Pikie"
+                    }
+                },
+                {
+                    "name": "Spinning Injured Minnow",
+                    "number": 9500,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1952,
+                        "yearEnded": 1963,
+                        "label": "Injured Minnow"
+                    }
+                },
+                {
+                    "name": "Spin Deepster",
+                    "number": 9600,
+                    "gold_embossed_pressed_label":{
+                        "yearStarted": 1953,
+                        "yearEnded": 1954,
+                        "label": "Deepster"
+                    }
+                },
+                {
+                    "name": "Feather Casting Minnow",
+                    "number": "F",
+                    "pre1925codes": [
+                        {"ccbc-00": "F11"},
+                        {"ccbc-01": "F12"},
+                        {"ccbc-02": "F10"},
+                        {"ccbc-06": "F13"}
+                     ]
                 }
             ]
         }
