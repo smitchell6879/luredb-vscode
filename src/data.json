@@ -4,7 +4,7 @@
         "name": "Lure Colors Dataset",
         "description": "A dataset containing various colors of fishing lures.",
         "publisher": "smitchell6879",
-        "lastUpdated": "2026-01-20"
+        "lastUpdated": "2026-01-27"
     },
     "manufacturers": {
         "creek-chub": {
@@ -246,6 +246,14 @@
                 },
                 {
                     "id": "ccbc-05b",
+                    "name": "New Red Side",
+                    "yearIntroduced": 1950,
+                    "yearLastUsed": 1978,
+                    "companyId": "05",
+                    "pre1925Id": ["00","01","02"]
+                },
+                {
+                    "id": "ccbc-05c",
                     "name": "Dace",
                     "yearIntroduced": 1931,
                     "yearLastUsed": 1978,
@@ -813,7 +821,12 @@
                         "ccbc-18",
                         "ccbc-19"
                     ],
-                    "rare_colors": ["ccbc-03", "ccbc-07", "ccbc-09", "ccbc-12", "ccbc-19"],
+                    "rare_colors": [
+                        "ccbc-03",
+                        "ccbc-07",
+                        "ccbc-09",
+                        "ccbc-12",
+                        "ccbc-19"],
                     "pre1925codes": [
                         {"ccbc-00": 100},
                         {"ccbc-01": 101},
@@ -831,7 +844,6 @@
                         "stencil": "Creek Chub"
                     },
                     "notes": "The original and most iconic Creek Chub lure. Designed by Henery Dills in 1916."
-        
                 },
                 {
                     "name": "Baby Wiggler",
@@ -841,8 +853,28 @@
                     "length": "2 3/4 inches",
                     "weight": "1/2 oz",
                     "eyes": "Glass eyes, some have a red backing to the eyes, some color variations have no eyes.",
-                    "colors": ["ccbc-00", "ccbc-01", "ccbc-02", "ccbc-03", "ccbc-04", "ccbc-05", "ccbc-06", "ccbc-07", "ccbc-09", "ccbc-11", "ccbc-12", "ccbc-18", "ccbc-19"],
-                    "rare_colors": ["ccbc-03", "ccbc-07", "ccbc-09", "ccbc-12", "ccbc-19"],
+                    "colors": [
+                        "ccbc-00",
+                        "ccbc-01",
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-04",
+                        "ccbc-05",
+                        "ccbc-06",
+                        "ccbc-07",
+                        "ccbc-09",
+                        "ccbc-11",
+                        "ccbc-12",
+                        "ccbc-18",
+                        "ccbc-19"
+                    ],
+                    "rare_colors": [
+                        "ccbc-03",
+                        "ccbc-07",
+                        "ccbc-09",
+                        "ccbc-12",
+                        "ccbc-19"
+                    ],
                     "pre1925codes": [
                         {"ccbc-00": 100},
                         {"ccbc-01": 101},
@@ -868,6 +900,23 @@
                 {
                     "name": "Crawdad",
                     "number": 300,
+                    "yearIntroduced": 1918,
+                    "yearLastMfg": 1964,
+                    "length": "2 3/4 inches",
+                    "weight": "3/4 oz",
+                    "eyes": "Small glass beads that got a little bigger over the years, some found with tack eyes expected due to the WWII.",
+                    "colors": [
+                        "ccbc-00b",
+                        "ccbc-01",
+                        "ccbc-02b",
+                        "ccbc-15",
+                        "ccbc-16",
+                        "ccbc-18"
+                    ],
+                    "rare_colors": [
+                        "ccbc-01",
+                        "ccbc-18"
+                    ],
                     "pre1925codes": [
                         {"ccbc-00b": 300},
                         {"ccbc-02b": 301},
@@ -878,11 +927,29 @@
                         "yearStarted": 1934,
                         "yearEnded": 1950,
                         "stencil": "Crawdad"
-                    }
-                },
+                    },
+                    "note": "Originally called 'Creek Crab Wiggler', then 'Creek Crab', finally renamed to 'Crawdad'."
+},
                 {
                     "name": "Baby Crawdad",
                     "number": 400,
+                    "yearIntroduced": 1918,
+                    "yearLastMfg": 1964,
+                    "length": "2 1/4 inches",
+                    "weight": "1/2 oz",
+                    "eyes": "Small glass beads that got a little bigger over the years, some found with tack eyes expected due to the WWII.",
+                    "colors": [
+                        "ccbc-00b",
+                        "ccbc-01",
+                        "ccbc-02b",
+                        "ccbc-15",
+                        "ccbc-16",
+                        "ccbc-18"
+                    ],
+                    "rare_colors": [
+                        "ccbc-01",
+                        "ccbc-18"
+                    ],
                     "pre1925codes": [
                         {"ccbc-00b": 400},
                         {"ccbc-02b": 401},
@@ -893,16 +960,32 @@
                         "yearStarted": 1934,
                         "yearEnded": 1950,
                         "stencil": "Crawdad"
-                    }
+                    },
+                    "note": "Smaller version of the Crawdad."
                 },
                 {
                     "name": "Open Mouth Shiner",
                     "number": 500,
+                    "yearIntroduced": 1919,
+                    "yearLastMfg": 1931,
+                    "length": "3 1/2 inches",
+                    "weight": ".60 oz",
+                    "eyes": "Painted eyes except on the Red Head & White which had no eyes",
+                    "colors": [
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-05",
+                        "ccbc-18" ],
+                    "rare_colors": [
+                        "ccbc-18"
+                    ],
                     "pre1925codes": [
                         {"ccbc-02": 502},
                         {"ccbc-03": 500},
                         {"ccbc-05": 501}
-                     ]
+                     ],
+                    "note": "There is a non-cataloged baby version that weights .55 oz and 3 inches in length."
+
                 },
                 {
                     "name": "Spoontail",
@@ -920,12 +1003,28 @@
                 {
                     "name": "Husky Musky",
                     "number": 600,
+                    "yearIntroduced": 1919,
+                    "yearLastMfg": 1954,
+                    "length": "5 inches",
+                    "weight": "1 1/4 oz",
+                    "eyes": "Pre 1920 can be found without eyes",
+                    "colors": [
+                        "ccbc-00",
+                        "ccbc-01",
+                        "ccbc-02",
+                        "ccbc-07",
+                        "ccbc-18"
+                    ],
+                    "rare_colors": [
+                        "ccbc-07"
+                    ],
                     "pre1925codes": [
                         {"ccbc-00": 600},
                         {"ccbc-01": 603},
                         {"ccbc-02": 602},
                         {"ccbc-07": 601}
-                     ]
+                     ],
+                    "note": "Large variation of the Wiggler designed for muskellunge and northern pike."
                 },
                 {
                     "name": "Mitie Mouse",
@@ -934,6 +1033,43 @@
                 {
                     "name": "Pikie Minnow",
                     "number": 700,
+                    "yearIntroduced": 1920,
+                    "yearLastMfg": 1978,
+                    "length": "4 1/4 inches",
+                    "weight": ".70 oz",
+                    "eyes": "Tack Eyes after 1960",
+                    "colors": [
+                        "ccbc-00c",
+                        "ccbc-01",
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-04",
+                        "ccbc-07",
+                        "ccbc-08",
+                        "ccbc-10",
+                        "ccbc-11",
+                        "ccbc-12-RE",
+                        "ccbc-13",
+                        "ccbc-18",
+                        "ccbc-19",
+                        "ccbc-21",
+                        "ccbc-22",
+                        "ccbc-30",
+                        "ccbc-31",
+                        "ccbc-32",
+                        "ccbc-33",
+                        "ccbc-34",
+                        "ccbc-37"
+                    ],
+                    "rare_colors": [
+                        "ccbc-10",
+                        "ccbc-12-RE",
+                        "ccbc-13",
+                        "ccbc-19",
+                        "ccbc-30",
+                        "ccbc-33",
+                        "ccbc-37"
+                    ],
                     "pre1925codes": [
                         {"ccbc-00c": 700},
                         {"ccbc-01": 704},
@@ -952,11 +1088,42 @@
                         "yearStarted": 1950,
                         "yearEnded": 1963,
                         "label": "Pikie or Creek Chub Pikie"
-                    }
+                    },
+                    "notes": "The most popular and successful lure made by Creek Chub. Designed to imitate a small baitfish, it has a distinctive lip that creates a unique swimming action."
                 },
                 {
                     "name": "Deep Diving Pikie",
                     "number": "700DD",
+                    "yearIntroduced": 1950,
+                    "yearLastMfg": 1978,
+                    "length": "4 1/4 inches",
+                    "weight": ".85 oz",
+                    "eyes": "Tack Eyes after 1960",
+                    "colors": [
+                        "ccbc-00c",
+                        "ccbc-01",
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-04",
+                        "ccbc-07",
+                        "ccbc-08",
+                        "ccbc-11",
+                        "ccbc-13",
+                        "ccbc-18",
+                        "ccbc-21",
+                        "ccbc-30",
+                        "ccbc-31",
+                        "ccbc-32",
+                        "ccbc-33",
+                        "ccbc-34"
+                    ],
+                    "rare_colors": [
+                        "ccbc-11",
+                        "ccbc-21",
+                        "ccbc-30",
+                        "ccbc-33"
+                    ],
+                    "notes": "A variation of the most popular and successful lure made by Creek Chub.",
                     "gold_embossed_pressed_label":{
                         "yearStarted": 1950,
                         "yearEnded": 1963,
@@ -966,15 +1133,40 @@
                 {
                     "name": "Saltwater Pikie",
                     "number": "700SW",
+                    "yearIntroduced": 1950,
+                    "yearLastMfg": 1978,
+                    "length": "4 1/4 inches",
+                    "weight": ".95 oz",
+                    "eyes": "Tack Eyes after 1960",
+                    "colors": [
+                        "ccbc-02",
+                        "ccbc-03",
+                        "ccbc-07",
+                        "ccbc-18",
+                        "ccbc-34",
+                        "ccbc-35"
+                    ],
+                    "rare_colors": [
+                        "ccbc-35"
+                    ],
                     "gold_embossed_pressed_label":{
                         "yearStarted": 1957,
                         "yearEnded": 1963,
                         "label": "Pikie or Creek Chub Pikie"
-                    }
+                    },
+                    "notes": "A variation of the most popular and successful lure made by Creek Chub designed for saltwater fishing. It only has 2 Treble hooks."
                 },
                 {
                     "name": "Deluxe Wagtail",
                     "number": 800,
+                    "yearIntroduced": 1921,
+                    "yearLastMfg": 1953,
+                    "length": "2 3/4 inches",
+                    "weight": ".60 oz",
+                    "eyes": "Glass eyes, some have a red backing to the eyes, some color variations have no eyes.",
+                    "colors": [
+                        "ccbc-00", "ccbc-01", "ccbc-02", "ccbc-04", "ccbc-05", "ccbc-06", "ccbc-18"],
+                    "rare_colors": ["ccbc-05c"],
                     "pre1925codes": [
                         {"ccbc-00": 800},
                         {"ccbc-01": 801},
@@ -1798,6 +1990,60 @@
                      ]
                 }
             ]
+        },
+        "western-auto": {
+            "name": "Western Auto",
+            "lures": [
+                {
+                    "name": "Darter",
+                    "number": "V-317",
+                    "color": "Frog",
+                    "mfg": null,
+                    "mfgId": null
+                },
+                {
+                    "name": "Shakespeare-type Mouse",
+                    "number": "V-319",
+                    "color": "Tiger Stripe",
+                    "mfg": null,
+                    "mfgId": null
+                },
+                {
+                    "name": "River Master",
+                    "number": "V-320",
+                    "color": "White and Red",
+                    "mfg": "Shur-Strike",
+                    "mfgId": null
+                },
+                {
+                    "name": "River Master",
+                    "number": "V-321",
+                    "color": "Red Dace",
+                    "mfg": "Shur-Strike",
+                    "mfgId": null
+                },
+                {
+                    "name": "Jointed Diving Wobbler",
+                    "number": "V-323",
+                    "color": "Goldfish",
+                    "mfg": "Shur-Strike",
+                    "mfgId": null
+                },
+                {
+                    "name": "Jointed Diving Wobbler",
+                    "number": "V-324",
+                    "color": "Pike Scale",
+                    "mfg": "Shur-Strike",
+                    "mfgId": null
+                },
+                {
+                    "name": "Jointed Diving Wobbler",
+                    "number": "V-325",
+                    "color": "White and Red",
+                    "mfg": "Shur-Strike",
+                    "mfgId": null
+                }
+            ]
         }
     },
     "indexes": {
@@ -1813,7 +2059,8 @@
             "ccbc-04": {"manufacturerId": "creek-chub", "colorName": "Golden Shiner", "companyId": "04"},
             "ccbc-yellow-scale": {"manufacturerId": "creek-chub", "colorName": "Yellow Scale", "companyId": null},
             "ccbc-05": {"manufacturerId": "creek-chub", "colorName": "Red Side", "companyId": "05"},
-            "ccbc-05b": {"manufacturerId": "creek-chub", "colorName": "Dace", "companyId": "05"},
+            "ccbc-05b": {"manufacturerId": "creek-chub", "colorName": "New Red Side", "companyId": "05"},
+            "ccbc-05c": {"manufacturerId": "creek-chub", "colorName": "Dace", "companyId": "05"},
             "ccbc-06": {"manufacturerId": "creek-chub", "colorName": "Goldfish", "companyId": "06"},
             "ccbc-07": {"manufacturerId": "creek-chub", "colorName": "Mullet", "companyId": "07"},
             "ccbc-08": {"manufacturerId": "creek-chub", "colorName": "Rainbow", "companyId": "08"},
@@ -1889,7 +2136,7 @@
             "02": ["ccbc-02", "ccbc-02b"],
             "03": ["ccbc-03"],
             "04": ["ccbc-04"],
-            "05": ["ccbc-05", "ccbc-05b"],
+            "05": ["ccbc-05", "ccbc-05b", "ccbc-05c"],
             "06": ["ccbc-06"],
             "07": ["ccbc-07"],
             "08": ["ccbc-08"],
@@ -1957,10 +2204,10 @@
             "1924": ["ccbc-00d", "ccbc-03", "ccbc-08", "ccbc-13", "ccbc-14", "ccbc-19"],
             "1925": ["ccbc-17"],
             "1927": ["ccbc-18", "ccbc-20", "ccbc-21"],
-            "1931": ["ccbc-05b", "ccbc-22", "ccbc-50", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55"],
+            "1931": ["ccbc-05c", "ccbc-22", "ccbc-50", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55"],
             "1941": ["ccbc-24", "ccbc-25", "ccbc-26", "ccbc-27", "ccbc-28"],
             "1942": ["ccbc-29"],
-            "1950": ["ccbc-31", "ccbc-32"],
+            "1950": ["ccbc-05b", "ccbc-31", "ccbc-32"],
             "1952": ["ccbc-30", "ccbc-33"],
             "1953": ["ccbc-34", "ccbc-35", "ccbc-36", "ccbc-37"],
             "1956": ["ccbc-38"],
@@ -1978,7 +2225,7 @@
             "1976": ["ccbc-25BE"]
         },
         "byManufacturer": {
-            "creek-chub": ["ccbc-00", "ccbc-00b", "ccbc-00c", "ccbc-00d", "ccbc-01", "ccbc-02", "ccbc-02b", "ccbc-03", "ccbc-04", "ccbc-yellow-scale", "ccbc-05", "ccbc-05b", "ccbc-06", "ccbc-07", "ccbc-08", "ccbc-09", "ccbc-09b", "ccbc-10", "ccbc-10b", "ccbc-10c", "ccbc-11", "ccbc-11b", "ccbc-12", "ccbc-12b", "ccbc-12RE", "ccbc-13", "ccbc-14", "ccbc-15", "ccbc-16", "ccbc-16b", "ccbc-17", "ccbc-17b", "ccbc-18", "ccbc-19", "ccbc-20", "ccbc-20b", "ccbc-21", "ccbc-21b", "ccbc-22", "ccbc-22b", "ccbc-23", "ccbc-24", "ccbc-24b", "ccbc-25", "ccbc-25BE", "ccbc-26", "ccbc-27", "ccbc-28", "ccbc-29", "ccbc-30", "ccbc-31", "ccbc-32", "ccbc-33", "ccbc-34", "ccbc-35", "ccbc-36", "ccbc-37", "ccbc-38", "ccbc-39", "ccbc-40", "ccbc-41", "ccbc-41b", "ccbc-42", "ccbc-42b", "ccbc-43", "ccbc-44", "ccbc-50", "ccbc-51", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55", "ccbc-58", "ccbc-SS", "ccbc-GP", "ccbc-T", "ccbc-F10", "ccbc-F11", "ccbc-F12", "ccbc-F16"]
+            "creek-chub": ["ccbc-00", "ccbc-00b", "ccbc-00c", "ccbc-00d", "ccbc-01", "ccbc-02", "ccbc-02b", "ccbc-03", "ccbc-04", "ccbc-yellow-scale", "ccbc-05", "ccbc-05b", "ccbc-05c", "ccbc-06", "ccbc-07", "ccbc-08", "ccbc-09", "ccbc-09b", "ccbc-10", "ccbc-10b", "ccbc-10c", "ccbc-11", "ccbc-11b", "ccbc-12", "ccbc-12b", "ccbc-12RE", "ccbc-13", "ccbc-14", "ccbc-15", "ccbc-16", "ccbc-16b", "ccbc-17", "ccbc-17b", "ccbc-18", "ccbc-19", "ccbc-20", "ccbc-20b", "ccbc-21", "ccbc-21b", "ccbc-22", "ccbc-22b", "ccbc-23", "ccbc-24", "ccbc-24b", "ccbc-25", "ccbc-25BE", "ccbc-26", "ccbc-27", "ccbc-28", "ccbc-29", "ccbc-30", "ccbc-31", "ccbc-32", "ccbc-33", "ccbc-34", "ccbc-35", "ccbc-36", "ccbc-37", "ccbc-38", "ccbc-39", "ccbc-40", "ccbc-41", "ccbc-41b", "ccbc-42", "ccbc-42b", "ccbc-43", "ccbc-44", "ccbc-50", "ccbc-51", "ccbc-52", "ccbc-53", "ccbc-54", "ccbc-55", "ccbc-58", "ccbc-SS", "ccbc-GP", "ccbc-T", "ccbc-F10", "ccbc-F11", "ccbc-F12", "ccbc-F16"]
         }
     }
 }
